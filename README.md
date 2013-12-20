@@ -18,3 +18,11 @@ Project Requirement
 1) To have Python Version 3.3.2 or newer installed onto your computer
 
 2) To have Git and GitHub desktop client installed on your computer
+
+Converting Python v2 scripts to Python v3
+
+1) Go to your command line and change the directory to the location of your Python v2 script
+
+2) Then enter the code below 
+
+   python C:\Python33\Tools\Scripts\2to3.py -w PythonV2Scipt.py
