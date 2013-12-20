@@ -1,9 +1,12 @@
 Personal Financial Plan
 =====================
 
+The Purpose
+
 The purpose of this project is take control of their own personal financial life through the use the application that is simple and easy to use build upon the financial philosophy of "Paying Yourself First"
 
 The Project Scope
+
 To create a application that is simple and ease of use by anyone
 To have a ready made financial plan for anyone to follow
 To make it easier for you to keep track of their monthly expenses
