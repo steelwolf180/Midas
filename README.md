@@ -26,3 +26,12 @@ Converting Python v2 scripts to Python v3
 2) Then enter the code below 
 
    python C:\Python33\Tools\Scripts\2to3.py -w PythonV2Scipt.py
+   
+Creating a exe file in python
+
+Requirement
+
+cx_Freeze - http://cx-freeze.sourceforge.net/
+
+HowTo Video on creating the exe file for our project
+http://youtu.be/XHcDHSWRCRQ
