@@ -38,3 +38,6 @@ print("Learning:$" + "%.2f" % round(expected_learning, 2));
 print("\n======Salary Left For Expenses======\n");
 print("Personal Expenses:$" + "%.2f" % round(expenses, 2));
 print("Monthly Salary:$" + "%.2f" % round(salary, 2) + "\n");
+
+# To exit the python program
+input("Please press enter to exit the program")
