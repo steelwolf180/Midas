@@ -34,4 +34,7 @@ Requirement
 cx_Freeze - http://cx-freeze.sourceforge.net/
 
 HowTo Video on creating the exe file for our project
+
 http://youtu.be/XHcDHSWRCRQ
+
+To run the program go to Midas v1 folder and double click Financial_Plan to run the program
