@@ -4,6 +4,12 @@ from tkinter import *
 # Keeps things organised, in my opinion.
 windows = {}
 widgets = {}
+# Calculate expected outcome for the month.
+expected_savings = float(salary*0.1);
+expected_spending = float(salary*0.1);
+expected_donation = float(salary*0.1);
+expected_learning = float(salary*0.05);
+
 
 class MainWindow():
 	def __init__(self, windows):
