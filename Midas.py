@@ -2,7 +2,7 @@ try:
     salary = float(input("Monthly Income :$"))
 
     # Calculate expected outcome for the month.
-    expected_savings = float(salary*0.1)
+    expected_savings = float(salary*0.2)
     expected_spending = float(salary*0.1)
     expected_donation = float(salary*0.1)
     expected_learning = float(salary*0.05)
@@ -15,16 +15,16 @@ try:
     standing_loan = float(input("Monthly Loan :$"))
 
     # Calculate shortfall (any outcome that remains to be spent)
-    shortfall_savings = standing_savings - expected_savings
-    shortfall_spending = standing_spending - expected_spending
-    shortfall_donation = standing_donation - expected_donation
-    expenses =(salary - standing_savings -  standing_spending -  standing_donation - expected_learning - standing_loan)
+    shortfall_savings = expected_savings - standing_savings
+    shortfall_spending = expected_spending - standing_spending
+    shortfall_donation = expected_donation - standing_donation
+    expenses =(salary - expected_savings -  expected_spending -  expected_donation - expected_learning - standing_loan)
 
     # Display outcome so far.
     print("\n====Income Distributed To Account=====\n");
-    print("Calculated Savings:$" + "%.2f" % round(standing_savings, 2))
-    print("Calculated Spending:$" + "%.2f" % round(standing_spending, 2))
-    print("Calculated Donation:$" + "%.2f" % round(standing_donation, 2))
+    print("Calculated Savings:$" + "%.2f" % round(expected_savings, 2))
+    print("Calculated Spending:$" + "%.2f" % round(expected_spending, 2))
+    print("Calculated Donation:$" + "%.2f" % round(expected_donation, 2))
     print("Calculated Learning:$" + "%.2f" % round(expected_learning, 2))
     print("Monthly Loan Repayment:$" + "%.2f" % round(standing_loan, 2))
 
@@ -42,7 +42,7 @@ try:
 
     # Prompting the user to press enter to exit the program.
     question = input("Please press enter to exit the program")
-    
+
 # Catching the common exceptions in the program
 except ValueError:
     print("Could not convert data to integer.")
