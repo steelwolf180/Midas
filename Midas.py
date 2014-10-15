@@ -9,6 +9,7 @@ try:
 
     # Request input for any standing orders already in effect.
     print("\n=========Standing Order============\n")
+    print("\n===Please Enter The Amount Below===\n")
     standing_savings = float(input("Monthly Savings :$"))
     standing_spending = float(input("Monthly Spending :$"))
     standing_donation = float(input("Monthly Donation :$"))
